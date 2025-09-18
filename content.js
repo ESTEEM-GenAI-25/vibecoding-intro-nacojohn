@@ -7,11 +7,11 @@ const content = {
         name: "Nnanna John",
         title: "Digital Transformation & Policy Advisor",
         tagline: "Bridging Technology and Policy for African Innovation",
-        email: "nnannajohn@example.com", // Replace with your actual email
-        linkedin: "https://linkedin.com/in/nnannajohn", // Replace with your LinkedIn URL
+        email: "johnnnanna@gmail.com", // Replace with your actual email
+        linkedin: "https://linkedin.com/in/nacojohn", // Replace with your LinkedIn URL
         location: "Nigeria",
         bio: "Experienced digital transformation specialist and policy advisor with expertise in innovation ecosystems, technology leadership, and government advisory roles across Africa.",
-        profileImage: "https://media.licdn.com/dms/image/v2/D5603AQHbRjySp3AcIw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691323627303?e=1761177600&v=beta&t=XuRNSCn14eT4S9Eq15TUcLEx_kYzoV4Rx3cnl_Ebnss"
+        profileImage: "./me.jpeg"
     },
 
     // Hero Section
@@ -166,14 +166,14 @@ const content = {
             {
                 icon: "📧",
                 title: "Email",
-                value: "nnannajohn@example.com",
-                link: "mailto:nnannajohn@example.com"
+                value: "johnnnanna@gmail.com",
+                link: "mailto:johnnnanna@gmail.com"
             },
             {
                 icon: "💼",
                 title: "LinkedIn",
                 value: "Connect with me",
-                link: "https://linkedin.com/in/nnannajohn"
+                link: "https://linkedin.com/in/nacojohn"
             },
             {
                 icon: "📄",
@@ -213,8 +213,8 @@ const content = {
     footer: {
         text: "© 2024 Nnanna John. All rights reserved. Driving digital transformation across Africa.",
         socialLinks: [
-            { icon: "💼", name: "LinkedIn", url: "https://linkedin.com/in/nnannajohn" },
-            { icon: "📧", name: "Email", url: "mailto:nnannajohn@example.com" }
+            { icon: "💼", name: "LinkedIn", url: "https://linkedin.com/in/nacojohn" },
+            { icon: "📧", name: "Email", url: "mailto:johnnnanna@gmail.com" }
         ]
     },
 
