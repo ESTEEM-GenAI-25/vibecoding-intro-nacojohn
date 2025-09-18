@@ -48,6 +48,17 @@
             background-color: var(--bg-primary);
         }
 
+        /* Global Link Styles */
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--primary-dark);
+        }
+
         /* Navigation */
         nav {
             position: fixed;
@@ -134,7 +145,7 @@
             min-height: 100vh;
             display: flex;
             align-items: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: var(--gradient-primary);
             color: white;
             position: relative;
             overflow: hidden;
