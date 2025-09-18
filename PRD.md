@@ -2,72 +2,116 @@
 
 ## 1. Project Overview
 - **Summary:**  
-  _One-sentence description of what this product is and why it exists._
+  A professional portfolio website showcasing Nnanna John’s expertise in digital transformation, policy advisory, innovation ecosystems, and technology leadership.
 
 - **Context/Background:**  
-  _Why this project is being created, relevant history, or inspiration._
+  The website is being created to establish an online professional presence, centralize career achievements, highlight global contributions to digital innovation and policy, and provide an accessible platform for networking, consulting, and collaboration opportunities.
 
 ## 2. Goals and Objectives
 - **Primary Goal(s):**  
-  _Main outcome the product should achieve._
+  - Present a credible and professional digital profile.  
+  - Showcase experience, skills, and achievements across policy, technology, and innovation.  
+  - Provide a central contact point for professional opportunities.  
 
 - **Secondary Goal(s):**  
-  _Additional but less critical objectives._
+  - Share thought leadership (e.g., articles, speaking engagements).  
+  - Highlight recognitions such as Mandela Washington Fellowship and AU engagements.  
+  - Serve as a resource hub for collaborators and mentees.
 
 ## 3. Target Audience
 - **Who are the users?**  
-  _e.g., students, researchers, customers, collaborators, general public._
+  - Policymakers and government agencies.  
+  - Multilateral organizations (e.g., AU, World Bank).  
+  - Startups, SMEs, and innovation hubs.  
+  - Academic collaborators and researchers.  
+  - General professional network.  
 
 - **User Needs:**  
-  _What they expect to accomplish using this product._
+  - Learn about expertise in digital transformation and policy.  
+  - View projects, achievements, and speaking engagements.  
+  - Access CV/resume or request consulting engagements.  
+  - Easily connect via email, LinkedIn, or other channels.  
 
 ## 4. Key Features / Requirements
 - **Must-Have Features:**  
-  - Feature 1  
-  - Feature 2  
-  - Feature 3  
+  - Homepage with professional summary.  
+  - About page with detailed biography and education.  
+  - Projects/Experience page showcasing AU, RAD5, ministry, and consultancy work.  
+  - Recognition & Awards section.  
+  - Contact form with email and LinkedIn integration.  
+  - Downloadable CV.  
 
 - **Nice-to-Have Features (Optional):**  
-  - Feature A  
-  - Feature B  
+  - Blog/Insights section for articles and thought leadership.  
+  - Testimonials from collaborators or mentees.  
+  - Newsletter subscription.  
+  - Interactive timeline of career milestones.  
 
 ## 5. Design & User Experience
 - **Visual Style / Vibe:**  
-  _Minimalist, playful, professional, bold, etc._
+  Professional, minimalist, clean, and authoritative.  
 
 - **Branding / Colors / Fonts:**  
-  _Any specific guidelines or references._
+  - Colors: Blue, white, and gray tones (reflecting trust, professionalism, and clarity).  
+  - Fonts: Sans-serif fonts (e.g., Open Sans, Lato, Roboto).  
 
 - **Accessibility Considerations:**  
-  _e.g., color contrast, alt text for images, screen reader compatibility._
+  - High contrast for text.  
+  - Alt text for all images.  
+  - Screen reader compatibility.  
+  - Mobile-first responsive design.  
 
 ## 6. Content Requirements
 - **Pages / Sections:**  
-  - Homepage  
-  - About / Bio  
-  - Projects / Portfolio  
-  - Contact  
-  - _(other sections as needed)_  
+  - **Homepage**: Hero section with name, title, professional tagline.  
+  - **About/Bio**: Detailed background, education, certifications.  
+  - **Experience**: Work with African Union, RAD5 Tech Hub, government advisory roles.  
+  - **Projects/Portfolio**: Key transformation projects, policy contributions, startup mentorships.  
+  - **Awards & Recognition**: Mandela Washington Fellowship, service awards, thought leadership.  
+  - **Skills & Certifications**: Digital transformation, policy, cybersecurity, AI for policy, enterprise design thinking.  
+  - **Contact**: Email, LinkedIn, optional contact form.  
+  - **Downloads**: PDF CV.  
 
 - **Specific Content to Include:**  
-  _Copy, images, links, downloads, etc._
+  - Professional summary from CV.  
+  - Logos of organizations (AU, Notre Dame, RAD5, etc.).  
+  - Links to LinkedIn profile.  
+  - Images from speaking engagements/events (optional).  
 
 ## 7. Technical Constraints
 - **Technology Stack:**  
-  _Plain HTML/CSS/JS, React, etc._
+  - HTML5, CSS3, JavaScript for a static site.  
+  - Optional React framework for interactivity and scalability.  
 
 - **Hosting / Deployment:**  
-  _GitHub Pages, custom server, etc._
+  - Hosted on **GitHub Pages**.  
+  - Repository structure:  
+    ```
+    / (root)
+      index.html
+      /assets
+        /css
+        /js
+        /images
+    ```  
+  - GitHub Pages URL: `https://username.github.io/portfolio/`  
+  - Custom domain support (optional, e.g., nnannajohn.com).  
 
 - **Performance / Security Requirements:**  
-  _e.g., mobile responsive, SSL, fast loading times._
+  - Mobile responsive design.  
+  - SSL/HTTPS via GitHub Pages.  
+  - Fast loading times (<2 seconds).  
 
 ## 8. Out of Scope
-- _List what this product will **not** include, to prevent scope creep._
+- E-commerce features.  
+- Social media integrations beyond LinkedIn.  
+- Large-scale blogging platform (initially).  
+- Complex backend systems (focus on static/professional portfolio).  
 
 ## 9. Acceptance Criteria
-- _How you’ll know the product is complete — measurable standards._  
-  - Loads in under X seconds  
-  - Mobile responsive on iOS/Android  
-  - All main features work as described  
-  - Accessibility checks passed  
+- Homepage loads in under 2 seconds.  
+- Fully responsive on mobile (iOS/Android) and desktop.  
+- Contact form works and sends messages to provided email.  
+- LinkedIn and CV download links functional.  
+- All accessibility checks passed (WCAG compliance).  
+- Key sections (About, Experience, Projects, Awards, Contact) are present and populated.  
